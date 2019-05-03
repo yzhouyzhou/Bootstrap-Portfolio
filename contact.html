@@ -1,66 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Student Bio - Ying Zhou</title>
+
+  <title>Contact | Ying Zhou</title>
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <div class="container">
-
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-2"></div>
-              <div class="col-lg-7">
-              <h1 class="text-white bg-info mb-30" id="headerName">Ying Zhou</h1>
-            </div>
-            <div class="col-lg-3">
-              <ul class="nav nav-left">
-                <li class="nav-item">
-                  <a class="nav-link " href="./index.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-    
-              </ul>
-            </div>
-          </div>
-        </div>
-
-    <div class="container">
-      <div class="content-box">
-        <div class="row">
-          <div id="content-head">Contact</div>
-        </div>
-
-        <div id="context-text">
-          Name <br>
-          <textarea name="Name" id="name" cols=80% rows="1">Ying Zhou</textarea>
-          <br><br>
-          Email <br>
-          <textarea name="Email" id="email" cols=80% rows="1">yzhouyzhou@yahoo.com</textarea>
-          <br><br>
-          Message <br>
-          <textarea name="Message" id="message" cols=80% rows="3">Have a good day !</textarea>
-          <br><br>
-          <button id="submitButton">Submit</button>
-        </div>
+  <div class="container" id="masthead">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-6">
+        <a href="index.html" id="logo">Ying Zhou</a>
+      </div>
+      <div class="col-sm-5">
+        <ul class="navbar navbar-expand-sm navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" id="navlinkText" href="./index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navlinkText" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navlinkText" href="./contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </div>
 
-    <div>
-      <footer class="footer-box">Copywrite @2019</footer>
-    </div>
+  <div class="container" id="main-container">
+    <section class="main-section">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Contact</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Ying Zhou" required="required">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-control">
+            <label for="name">Email</label>
+            <input type="text" id="email" name="email" placeholder="yzhouyzhou@yahoo.com" required="required">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-control">
+            <label for="name">Message</label>
+            <textarea id="message" name="message" required="required">Have a nice day !</textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8"></div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-success btn-lg pull-right">
+            Submit
+          </button>
+        </div>
+      </div>
+
+
+    </section>
+
+  </div>
+
+  <div class="container" id="main-footer">
+    Copyright &copy;
+  </div>
 </body>
 
 </html>
