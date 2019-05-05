@@ -84,6 +84,7 @@ h2, h3 {
   border-top: 8px solid #4aaaa5;
   height: 50px;
   width:100%;
+  max-width: 760px;
 }
 
 h3, h2 {
