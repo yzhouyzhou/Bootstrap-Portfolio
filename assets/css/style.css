@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   margin-bottom: 20px;
 }
 
@@ -20,7 +20,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -35,6 +35,10 @@ h1 {
 
 h2, h3 {
   font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
 }
 
 /* header */
@@ -130,17 +134,17 @@ h3, h2 {
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+  opacity: 1;
 }
 
-.work h3 {
+.work h4 {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   width: 100%;
-  padding: 15px;
+  padding: 5px;
   margin-bottom: 0;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 20px;
   color: #ffffff;
   text-align: center;
   background: #4aaaa5;
